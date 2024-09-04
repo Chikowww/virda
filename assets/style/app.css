@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(#ff01b7 0%, #8000ff 40%, #cc00ff 100%);
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileImage {
+    width: 200px;
+}
+.profile h2 {
+    color: azure;
+    height: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.name {
+    margin-top: 30px;
+    color: #333;
+}
+
+.profile h5 {
+    color: azure;
+    transform: translateY(-10px);
+}
+.profile h5 {
+    color: azure;
+    transform: translateY(-10px);
+}
+.biodata {
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #ddfdfd00 100%);
+    padding-bottom: 100px;
+}
+
+.biodata h2{
+    padding: 70px;
+}
+.row {
+    padding: 0px 30px;
+}
+.card {
+    margin-bottom: 1rem;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+.card-text {
+    margin-bottom: 1px;
+    border-radius: 8px; /* Sudut card yang melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan card */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer {
+    background-color: #fffeff;
+    padding-bottom: 100px;
+}
+.contact a{
+    color: black;
+    width: 10px;
+}
+.watermark {
+    padding-top: 30px;
+}
+.achievement {
+    padding: 55px;
+}
+
+/* Definisikan animasi fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Terapkan animasi fade-in pada elemen dengan kelas fade-in */
+.fade-in {
+    animation: fade-in 2s ease-in-out;
+}
+
+/* Anda bisa menyesuaikan durasi dan jenis animasi sesuai kebutuhan */
